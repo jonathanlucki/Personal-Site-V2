@@ -1,0 +1,45 @@
+<nav class="navbar is-transparent" aria-label="main navigation">
+
+    <div class="navbar-brand">
+
+        <a class="navbar-item image" href="{{site.url}}">
+            <img src="{{site.logo-path}}" alt="JL" style="width: 58px; height: 28px;">
+        </a>
+
+        <div class="navbar-burger burger has-text-white" data-target="navbarOptions">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+    <div id="navbarOptions" class="navbar-menu">
+
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+
+            {% for item in site.data.navigation %}
+            <a href="{{item.link}}" class="navbar-item has-text-white">
+                <b>{{ item.name }}</b>
+            </a>
+            {% endfor %}
+
+        </div>
+
+        <div class="navbar-end">
+
+            {% for item in site.data.social %}
+            <a href="{{item.link}}" class="navbar-item">
+                <span class="icon">
+                    <i class="{{item.icon}}" style="color: white;"></i>
+                </span>
+            </a>
+            {% endfor %}
+
+            <span class="navbar-item"></span>
+
+        </div>
+
+    </div>
+
+</nav>

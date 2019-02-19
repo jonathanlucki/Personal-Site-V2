@@ -1,0 +1,18 @@
+# Site settings
+title: Jonathan Lucki
+author: Jonathan Lucki
+description: Personal website for Jonathan Lucki
+url: http://jonathanlucki.ca/
+gtag: UA-39349093-7
+
+# Asset paths
+stylesheet-path: /assets/css/stylesheet.css
+logo-path: /assets/img/logo.png
+favicon-path: /assets/img/favicon.ico
+favicon-16x16-path: /assets/img/favicon-16x16.png
+favicon-32x32-path: /assets/img/favicon-32x32.png
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

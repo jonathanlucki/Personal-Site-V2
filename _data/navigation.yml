@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Projects
+  link: /projects.html
+- name: Photos
+  link: https://www.flickr.com/photos/141722380@N06/
+- name: Resume
+  link: /resume.html
+- name: Contact
+  link: /contact.html
