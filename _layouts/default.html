@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-
     {% include head.html %}
-
 </head>
 
 <body>
@@ -12,5 +10,9 @@
     {{ content }}
 
 </body>
+
+{% for item in site.data.scripts %}
+<script src="{{item.src}}"></script>
+{% endfor %}
 
 </html>
