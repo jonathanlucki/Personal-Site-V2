@@ -1,12 +1,12 @@
 - layer: 1
   depth: 0.1
   path: /assets/img/parallax1.png
-- layer: 2
-  depth: 0.6
-  path: /assets/img/parallax2.png
 - layer: 3
   depth: 0.2
   path: /assets/img/parallax3.png
+- layer: 2
+  depth: 0.6
+  path: /assets/img/parallax2.png
 - layer: 4
   depth: 0.3
   path: /assets/img/parallax4.png
@@ -14,5 +14,5 @@
   depth: 0.4
   path: /assets/img/parallax5.png
 - layer: 6
-- depth: 0.5
+  depth: 0.5
   path: /assets/img/parallax6.png
