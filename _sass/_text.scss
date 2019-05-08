@@ -1,0 +1,28 @@
+.main-title {
+  font-weight: 900;
+  letter-spacing: 10px;
+  font-size: 90px;
+  color: $secondary-colour;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: $secondary-colour;
+  }
+}
+
+.main-sub-title {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: $secondary-colour;
+}
+
+@media (max-width: 768px) {
+  .main-sub-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: $secondary-colour;
+  }
+}

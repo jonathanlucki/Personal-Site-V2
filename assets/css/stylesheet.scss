@@ -1,3 +1,14 @@
 ---
 ---
-@import "main";
+
+//Global SASS variables
+$primary-colour: black;
+$secondary-colour: white;
+$home-background-image-url: url({{site.home-background-path}});
+
+//import SASS partials
+@import "backgrounds";
+@import "misc";
+@import "panes";
+@import "parallax";
+@import "text";

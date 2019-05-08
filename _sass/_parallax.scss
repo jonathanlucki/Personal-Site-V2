@@ -1,0 +1,21 @@
+.parallax-layer {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
+
+.parallax-image {
+  display: block;
+  position: absolute;
+  width: 300%;
+  left: -100%;
+  bottom: -5%;
+  margin: 0px 0px;
+  background: transparent repeat-x center top;
+  background-size: auto 101%;
+  height: 100%;
+  image-rendering: pixelated;
+}

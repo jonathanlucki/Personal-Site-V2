@@ -11,6 +11,7 @@ logo-path: /assets/img/logo.png
 favicon-path: /assets/img/favicon.ico
 favicon-16x16-path: /assets/img/favicon-16x16.png
 favicon-32x32-path: /assets/img/favicon-32x32.png
+home-background-path: /assets/img/home-background.gif
 
 # Plugins
 plugins:
