@@ -7,8 +7,8 @@
 
 @media (max-width: 768px) {
   .main-title {
-    font-size: 60px;
-    letter-spacing: 10px;
+    font-size: 42px;
+    letter-spacing: 3px;
     color: $secondary-colour;
   }
 }
@@ -16,12 +16,13 @@
 .main-sub-title {
   letter-spacing: 1px;
   font-weight: 600;
+  font-size: 20px;
   color: $secondary-colour;
 }
 
 @media (max-width: 768px) {
   .main-sub-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: $secondary-colour;
   }
