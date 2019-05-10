@@ -7,6 +7,7 @@ $primary-colour-opaque: rgba(0,0,0,0.8);
 $secondary-colour: rgb(255,255,255);
 $secondary-colour-opaque: rgba(255,255,255,0.8);
 $home-background-image-url: url({{site.home-background-path}});
+$mobile-breakpoint: 768px;
 
 //import SASS partials
 @import "backgrounds";
