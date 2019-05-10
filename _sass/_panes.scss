@@ -7,10 +7,16 @@
   border-color: $secondary-colour;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $mobile-breakpoint) {
   .opaque-title-pane {
     margin: auto 0 auto 0;
     width: 100%;
     border-width: 5px 0 5px 0;
   }
+}
+
+.content-pane {
+  margin: 1rem auto 1rem auto;
+  padding: 2rem 2rem 2rem 2rem;
+  max-width: $mobile-breakpoint;
 }
