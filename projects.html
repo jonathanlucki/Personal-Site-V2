@@ -1,5 +1,24 @@
 ---
 layout: page
+title: Projects
 ---
 
-<p>Page under construction! : )</p>
+<h1 class="content-title">{{page.title}}</h1>
+
+{% for project in site.data.projects %}
+
+    <hr>
+
+    <h3 class="content-sub-title">{{project.name}}</h3>
+
+    <p class="content-text"><a href="{{project.github}}">Github Link</a> | <a href="{{project.link}}">Demo Link</a></p>
+
+    <ul>
+    {% for item in project.info %}
+
+        <li class="content-text content-list-item">{{item.text}}</li>
+
+    {% endfor %}
+    </ul>
+
+{% endfor %}
