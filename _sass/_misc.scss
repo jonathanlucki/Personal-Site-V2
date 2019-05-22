@@ -3,9 +3,13 @@
 }
 
 .is-fullheight {
-  height: 100%;
+  height: 100%!important;
 }
 
 .is-fullwidth {
-  width: 100%;
+  width: 100%!important;
+}
+
+.align-stretch {
+  align-items: stretch!important;
 }
