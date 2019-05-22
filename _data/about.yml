@@ -1,0 +1,11 @@
+paragraphs:
+  - text: Hello! My name is Jonathan Lucki and I am currently in my 2B term studying Computer Science at the University of Waterloo.
+  - text: I originally came to Waterloo with the most amazing dream - to become an <em>Accountant</em>. I was accepted into a specialized Mathematics and Accounting program and accepted without hesitation. However, after getting here I discovered however that accounting and business courses are horrendously boring... I enjoyed my CS courses much more, and were doing very well in them. As a result - I ended up switching majors and now I am a computer science student!
+  - text: You are currently browsing my personal website. On this site you have access to my projects, my resume, my photography, and my contact details. Feel free to look around!
+interests:
+  starter: "Here are some things I'm interested in:"
+  content:
+    - text: "<b>Photography: </b>I am not a professional photographer and do not own fancy equipment - that being said - I do really enjoy taking many bad photos with my phone. Very very <i>occasionally</i>, a few turn out okay - or at least I think so. You can view some of my photos by visiting the 'photos' page, beacuse why not share them with the world!"
+    - text: "<b>Short Stories: </b>Unlike what you might expect from a computer science student, English was one of my best subjects in high school. I particularly enjoy short stories for their ability to better focus more on its message and less on plot. If you are in the need of a good read, The Twenty-seventh Man by Nathan Englander is one of my favourites."
+    - text: "<b>Transit Networks/Maps: </b>I am <em>very</em> into maps. In particular, my favourite is transit maps. I like everything that has to do with the transportation and movement of people and in particular their networks. If you would like to send me any cool maps please do!"
+    - text: "<b>Photo Colourization: </b>A few years ago I started using my Photoshop skills to colour old black and white photos by request. I cannot however post them here as they are still technically other peoples private photographs. If you're interested in getting a photo colourized you can ask me about it."

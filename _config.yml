@@ -8,6 +8,7 @@ gtag: UA-39349093-7
 
 # Asset paths
 stylesheet-path: /assets/css/stylesheet.css
+about-photo-path: /assets/img/about-photo.jpg
 logo-path: /assets/img/logo.png
 favicon-path: /assets/img/favicon.ico
 favicon-16x16-path: /assets/img/favicon-16x16.png
